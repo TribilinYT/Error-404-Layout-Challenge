@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://zen-colden-810931.netlify.app/}">
+    <a href="https://zen-colden-810931.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{https://5fcaa989fc83891c64f9c8b9--zen-colden-810931.netlify.app/}">
+    <a href="https://zen-colden-810931.netlify.app/">
       Solution
     </a>
     <span> | </span>
@@ -48,8 +48,8 @@
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [HTML5](https://reactjs.org/)
-- [CSS3](https://vuejs.org/)
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ## Features
 
@@ -68,6 +68,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- 
-- GitHub [@your-username](https://{github.com/TribilinYT})
-- Twitter [@your-twitter](https://{twitter.com/DevCristhian})
+- GitHub [@your-username](https://github.com/TribilinYT)
+- Twitter [@your-twitter](https://twitter.com/DevCristhian)
