@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Space+Mono:wght@400;700&display=swap');
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-container{
+    margin-left: 7%;
+    font-size: 10px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+}
+
+h1{
+    font-family: 'Inconsolata', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+}
+
+ .content-container{ 
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content-img{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content-msg{
+    margin-left: 7%;
+    margin-right: 3%;
+
+}
+
+.msg-title{
+    font-family: "Space Mono";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.09em;
+    color: #333333;
+}
+
+.msg-p{
+    font-family: "Space Mono";
+    font-weight: bold;
+    text-align: left;
+    font-size: 18px;
+    color: #4F4F4F;
+    line-height: 27px;
+    letter-spacing: -0.9
+}
+
+.msg-button{
+    font-family: "Space Mono";
+    background-color: #333333;
+    color:#ffffff;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    width: 216px;
+    height: 68px;
+    margin-top: 10%;
+}
+
+.content-item{
+    /* border: 1px solid red; */
+} 
+
+
+img{
+    width: 100%;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer-msg{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    margin-bottom: 5.5%;
+}
+
+
+@media screen and (min-width: 1200px) {
+    body {
+      /* background-color: olive; */
+    }
+
+    .content-container{
+        flex-direction: row;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .content-item{
+        
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .content-msg{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 0;
+    }
+
+    .content-img{
+        margin-right: 2%;
+    }
+
+    .footer-msg{
+        margin-bottom: 1.5%;
+    }
+  }
